@@ -60,15 +60,15 @@ function clean_str($str) {
 
 <html>
 <head>
-	<title>FrogFind!</title>
+	<title>seARch!</title>
 </head>
 <body>
 
 <?php if($show_results) { // there's a search query in q, so show search results ?>
 
     <form action="/" method="get">
-    <a href="/"><font size=6 color="#008000">Frog</font><font size=6 color="#000000">Find!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
-    <input type="submit" value="Ribbbit!">
+    <a href="/"><font size=6 color="#008000">seA</font><font size=6 color="#000000">Rch!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
+    <input type="submit" value="seARch!! it">
     </form>
     <hr>
     <br>
@@ -78,15 +78,14 @@ function clean_str($str) {
     
 <?php } else { // no search query, so show new search ?>
     <br><br><center><h1><font size=7><font color="#008000">Frog</font>Find!</font></h1></center>
-    <center><h3>The Search Engine for Vintage Computers</h3></center>
+    <center><h3>The Search Engine for the ChipLet portable</h3></center>
     <br><br>
     <center>
     <form action="/" method="get">
     Leap to: <input type="text" size="30" name="q"><br>
-    <input type="submit" value="Ribbbit!">
+    <input type="submit" value="seARch!! it">
     </center>
     <br><br><br>
-    <small><center>Built by <b><a href="https://youtube.com/ActionRetro">Action Retro</a></b> on YouTube | <a href="about.php">Why build such a thing?</a></center><br>
     <small><center>Powered by DuckDuckGo</center></small>
 </form>
 </form>
