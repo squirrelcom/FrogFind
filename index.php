@@ -42,7 +42,6 @@ if(isset( $_GET['q'])) { // if there's a search query, show the results for it
     }
 }
 
-//replace chars that old machines probably can't handle
 function clean_str($str) {
     $str = str_replace( "‘", "'", $str );    
     $str = str_replace( "’", "'", $str );  
@@ -67,7 +66,7 @@ function clean_str($str) {
 <?php if($show_results) { // there's a search query in q, so show search results ?>
 
     <form action="/" method="get">
-    <a href="/"><font size=6 color="#008000">seA</font><font size=6 color="#000000">Rch!</font></a> Leap again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
+    <a href="/"><font size=6 color="#000000">se</font><font size=6 color="#FF0000">A</font><font size=6 color="#00FF00">R</font><font size=6 color="#000000">ch</font><font size=6 color="#A020F0.">!</font></a> again: <input type="text" size="30" name="q" value="<?php echo urldecode($query) ?>">
     <input type="submit" value="seARch!! it">
     </form>
     <hr>
@@ -77,8 +76,8 @@ function clean_str($str) {
     <?php echo $final_result_html ?>
     
 <?php } else { // no search query, so show new search ?>
-    <center><img src="/img/frogfind.gif" width="174" height="80" alt="seARch Logo"></center>
-    <center><h3>seARch the web privately</h3></center>
+    <center><img src="Search.png" width="360" height="100" alt="seARch Logo"></center>
+    <center><h3>seARch the web more privately with the new seARch! X update</h3></center>
     <br><br>
     <center>
     <form action="/" method="get">
