@@ -77,8 +77,8 @@ function clean_str($str) {
     <?php echo $final_result_html ?>
     
 <?php } else { // no search query, so show new search ?>
-    <br><br><center><h1><font size=7><font color="#008000">Frog</font>Find!</font></h1></center>
-    <center><h3>The Search Engine for the ChipLet portable</h3></center>
+    <center><img src="/img/frogfind.gif" width="174" height="80" alt="seARch Logo"></center>
+    <center><h3>seARch the web privately</h3></center>
     <br><br>
     <center>
     <form action="/" method="get">
@@ -86,7 +86,6 @@ function clean_str($str) {
     <input type="submit" value="seARch!! it">
     </center>
     <br><br><br>
-    <small><center>Powered by DuckDuckGo</center></small>
 </form>
 </form>
 
